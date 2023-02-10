@@ -1,0 +1,131 @@
+{
+	"pages": [{
+            "path" : "pages/home/home"
+            
+        }
+        ,{
+            "path" : "pages/qa/qa"
+            
+        }
+        ,{
+            "path" : "pages/mycenter/mycenter",
+						"style": {
+							"backgroundColor": "#ffffff"
+						}
+
+        }
+    ],
+	"subPackages": [
+		{
+			"root": "subpkg",
+			"pages": [
+				
+			{
+                    "path" : "search/search",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "findpolicy/findpolicy",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "找政策",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "findjob/findjob",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "找职业",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "findpersonnel/findpersonnel",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "找人才",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "findtech/findtech",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "找技术",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "map/map",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "站点地图",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "query/query",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "站点查询",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "appointment/appointment",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "预约服务",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "滨海新区人才服务平台",
+		"navigationBarBackgroundColor": "#2b4b6b",
+		"backgroundColor": "#ffffff",
+		"app-plus": {
+			"background": "#ffffff"
+		}
+	},
+	
+	"tabBar": {
+		"selectedColor": "#C00000",
+		"list": [
+			{
+				"pagePath": "pages/home/home",
+				"text": "首页",
+				"iconPath": "",
+				"selectedIconPath": ""
+			},
+			{
+				"pagePath": "pages/qa/qa",
+				"text": "问答",
+				"iconPath": "",
+				"selectedIconPath": ""
+			},
+			{
+				"pagePath": "pages/mycenter/mycenter",
+				"text": "个人中心",
+				"iconPath": "",
+				"selectedIconPath": ""
+			}
+		]
+	}
+}

@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/qa/qa",
+    "pages/mycenter/mycenter"
+  ],
+  "subPackages": [
+    {
+      "root": "subpkg",
+      "pages": [
+        "search/search",
+        "findpolicy/findpolicy",
+        "findjob/findjob",
+        "findpersonnel/findpersonnel",
+        "findtech/findtech",
+        "map/map",
+        "query/query",
+        "appointment/appointment"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "滨海新区人才服务平台",
+    "navigationBarBackgroundColor": "#2b4b6b",
+    "backgroundColor": "#ffffff"
+  },
+  "tabBar": {
+    "selectedColor": "#C00000",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "pages/qa/qa",
+        "text": "问答",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "pages/mycenter/mycenter",
+        "text": "个人中心",
+        "iconPath": "",
+        "selectedIconPath": ""
+      }
+    ]
+  },
+  "usingComponents": {}
+}

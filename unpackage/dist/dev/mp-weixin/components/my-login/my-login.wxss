@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.login-container {
+  height: 750rpx;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-container .btn-login {
+  width: 90%;
+  border-radius: 100px;
+  margin: 15px 0;
+}
+.login-container .tips-text {
+  font-size: 12px;
+  color: grey;
+}
+.avatar-wrapper {
+  padding: 0;
+  width: 56px !important;
+  border-radius: 8px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.avatar {
+  display: block;
+  width: 56px;
+  height: 56px;
+}
+.container {
+  display: flex;
+}
+.name-box {
+  display: flex;
+}
+.name-box .name {
+  padding-right: 20px;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+}
+
