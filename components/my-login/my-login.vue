@@ -1,7 +1,8 @@
 <template>
 	<view class="login-container">
 	<!-- 	<uni-icons type="contact-filled" size="100" color="#AFAFAF"></uni-icons> -->
-		<button class="avatar-wrapper" open-type="chooseAvatar" bindchooseavatar="onChooseAvatar">
+			<button class="avatar-wrapper" open-type="chooseAvatar" @chooseavatar="onChooseAvatar">
+<!-- 		<button class="avatar-wrapper" open-type="chooseAvatar" bind:chooseavatar="onChooseAvatar"> -->
 			<image class="avatar" :src="avatarUrl"></image>
 		</button>
 
@@ -63,11 +64,9 @@
 				uni.$showMsg('登陆成功！')
 			},
 			onChooseAvatar(e) {
-			    const { avatarUrl } = e.detail 
-			    this.setData({
-			      avatarUrl,
-			    })
-					console.log(avatarUrl)
+				console.log(e.detail)
+				this.avatarUrl = e.detail.avatarUrl
+				console.log(this.avatarUrl)
 			}
 		}
 	}
@@ -109,7 +108,8 @@
 	
 	.avatar-wrapper {
 		padding: 0;
-		width: 56px !important;
+		width: 56px;
+		// width: 56px !important;
 		border-radius: 8px;
 		margin-top: 40px;
 		margin-bottom: 40px;

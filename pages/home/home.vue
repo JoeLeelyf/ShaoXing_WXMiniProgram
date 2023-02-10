@@ -127,7 +127,7 @@
 			},
 			gotoSearch() {
 				uni.navigateTo({
-					url: '/subpkg/search/search'
+					url: '/subpkg/search/search?from=home'
 				})
 			},
 			gongxuClickHandler(item) {

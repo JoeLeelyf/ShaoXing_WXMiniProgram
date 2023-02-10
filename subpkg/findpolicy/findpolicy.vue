@@ -1,6 +1,6 @@
 <template>
 	<view>
-		
+		<my-search bgcolor="#ffffff" radius="0" @click="gotoSearch"></my-search>
 	</view>
 </template>
 
@@ -10,6 +10,13 @@
 			return {
 				
 			};
+		},
+		methods: {
+			gotoSearch() {
+				uni.navigateTo({
+					url: '/subpkg/search/search?from=findpolicy'
+				})
+			}
 		}
 	}
 </script>

@@ -1,1 +1,15 @@
-/* subpkg/findtech/findtech.wxss */
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.topcol {
+  display: flex;
+}
+.topcol .search-box {
+  width: 90%;
+}
+.topcol .select-box {
+  display: flex;
+  flex-direction: column;
+  padding: 30px,10px;
+}
+

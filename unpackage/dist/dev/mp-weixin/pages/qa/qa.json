@@ -1,3 +1,8 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "my-search": "/components/my-search/my-search",
+    "my-qa-all": "/components/my-qa-all/my-qa-all",
+    "my-qa-mine": "/components/my-qa-mine/my-qa-mine",
+    "my-qa-query": "/components/my-qa-query/my-qa-query"
+  }
 }

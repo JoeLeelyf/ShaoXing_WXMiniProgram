@@ -1,6 +1,6 @@
 <template>
 	<view>
-		
+		<my-search bgcolor="#f4f4f4" radius="0" @click="gotoSearch"></my-search>
 	</view>
 </template>
 
@@ -10,6 +10,13 @@
 			return {
 				
 			};
+		},
+		methods: {
+			gotoSearch() {
+				uni.navigateTo({
+					url: '/subpkg/search/search?from=findjob'
+				})
+			}
 		}
 	}
 </script>

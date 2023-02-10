@@ -26,25 +26,25 @@
     "backgroundColor": "#ffffff"
   },
   "tabBar": {
-    "selectedColor": "#C00000",
+    "selectedColor": "#1296db",
     "list": [
       {
         "pagePath": "pages/home/home",
         "text": "首页",
-        "iconPath": "",
-        "selectedIconPath": ""
+        "iconPath": "/static/tabBar_icons/home.png",
+        "selectedIconPath": "/static/tabBar_icons/home_selected.png"
       },
       {
         "pagePath": "pages/qa/qa",
         "text": "问答",
-        "iconPath": "",
-        "selectedIconPath": ""
+        "iconPath": "/static/tabBar_icons/qa.png",
+        "selectedIconPath": "/static/tabBar_icons/qa_selected.png"
       },
       {
         "pagePath": "pages/mycenter/mycenter",
         "text": "个人中心",
-        "iconPath": "",
-        "selectedIconPath": ""
+        "iconPath": "/static/tabBar_icons/mycenter.png",
+        "selectedIconPath": "/static/tabBar_icons/mycenter_selected.png"
       }
     ]
   },

@@ -387,7 +387,7 @@ var _default = {
     },
     gotoSearch: function gotoSearch() {
       uni.navigateTo({
-        url: '/subpkg/search/search'
+        url: '/subpkg/search/search?from=home'
       });
     },
     gongxuClickHandler: function gongxuClickHandler(item) {

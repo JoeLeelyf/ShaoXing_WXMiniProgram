@@ -1,5 +1,8 @@
 {
   "navigationBarTitleText": "找人才",
   "enablePullDownRefresh": false,
-  "usingComponents": {}
+  "usingComponents": {
+    "my-search": "/components/my-search/my-search",
+    "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons"
+  }
 }

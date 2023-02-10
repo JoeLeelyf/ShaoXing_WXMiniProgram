@@ -203,11 +203,9 @@ var _default = {
       }))();
     },
     onChooseAvatar: function onChooseAvatar(e) {
-      var avatarUrl = e.detail.avatarUrl;
-      this.setData({
-        avatarUrl: avatarUrl
-      });
-      console.log(avatarUrl);
+      console.log(e.detail);
+      this.avatarUrl = e.detail.avatarUrl;
+      console.log(this.avatarUrl);
     }
   })
 };

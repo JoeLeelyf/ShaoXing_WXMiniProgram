@@ -155,6 +155,18 @@ exports.default = void 0;
 //
 var _default = {
   name: "my-search",
+  props: {
+    // 背景颜色
+    bgcolor: {
+      type: String,
+      default: '#2b4b6b'
+    },
+    // 圆角尺寸
+    radius: {
+      type: Number,
+      default: 30 //px
+    }
+  },
   data: function data() {
     return {};
   },
