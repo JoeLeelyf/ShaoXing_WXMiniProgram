@@ -124,7 +124,7 @@
 				} = await uni.$http.get('/api/public/v1/home/catitems')
 				if (res.meta.status !== 200) return uni.$showMsg()
 				this.gongxuList = res.message
-				this.gongxuList[0].image_src='https://prod-6g0a1d1h5dcb92d9-1308482024.tcloudbaseapp.com/icon/%E6%94%BF%E7%AD%96.png?sign=c07997e14d697203fd85f20ab61ae8f6&t=1676068907'
+				this.gongxuList[0].image_src='https://prod-6g0a1d1h5dcb92d9-1308482024.tcloudbaseapp.com/icon/%E6%9C%AA%E6%A0%87%E9%A2%98-1.jpg?sign=b86b756bba3ee4758d0afd29825e6616&t=1676275697'
 				this.gongxuList[1].image_src='https://prod-6g0a1d1h5dcb92d9-1308482024.tcloudbaseapp.com/icon/%E4%BC%81%E4%B8%9A.png?sign=7a836395e6ffdc45f47e1ea4a05a24a2&t=1676069067'
 				this.gongxuList[2].image_src='https://prod-6g0a1d1h5dcb92d9-1308482024.tcloudbaseapp.com/icon/%E4%BA%BA%E6%89%8D%E6%B5%81%E5%8A%A8%E3%80%81%E4%BA%BA%E6%89%8D%E5%87%BA%E5%85%A5%E5%A2%83.png?sign=8e961dead4a7e476a2085c1bd326880d&t=1676069176'
 				this.gongxuList[3].image_src='https://prod-6g0a1d1h5dcb92d9-1308482024.tcloudbaseapp.com/icon/%E6%8A%80%E6%9C%AF%E6%9C%8D%E5%8A%A1.png?sign=eb6d82e8b985f195cea9ca2f8dd8810d&t=1676069157'

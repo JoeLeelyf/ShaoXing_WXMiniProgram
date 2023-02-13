@@ -57,7 +57,7 @@ swiper image {
   justify-content: center;
 }
 .gongxu-container .gongxu-box .gongxu-list .gongxu-item .gongxu-img {
-  width: 100%;
+  width: 75%;
 }
 .center-container {
   background-color: #2b4b6b;
@@ -81,7 +81,7 @@ swiper image {
   justify-content: center;
 }
 .center-container .center-box .center-list .center-item .center-img {
-  width: 80%;
+  width: 60%;
 }
 .placeholder {
   font-size: 15px;
